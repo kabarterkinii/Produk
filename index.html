@@ -6,10 +6,17 @@
 
   <title>Berita Terkini</title>
 
-  <!-- OPEN GRAPH -->
+  <!-- =========================
+       OPEN GRAPH / WHATSAPP
+       ========================= -->
+
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Berita Terkini">
-  <meta property="og:description" content="Viral hari ini">
+
+  <meta property="og:title"
+        content="Berita Terkini">
+
+  <meta property="og:description"
+        content="Viral hari ini">
 
   <meta property="og:url"
         content="https://kabarterkinii.github.io/Produk/">
@@ -17,28 +24,62 @@
   <meta property="og:image"
         content="https://kabarterkinii.github.io/Produk/foto.jpg">
 
-  <meta property="og:image:type" content="image/jpeg">
-  <meta property="og:image:width" content="659">
-  <meta property="og:image:height" content="1536">
+  <meta property="og:image:secure_url"
+        content="https://kabarterkinii.github.io/Produk/foto.jpg">
 
-  <!-- DESCRIPTION -->
-  <meta name="description" content="Viral hari ini">
+  <meta property="og:image:type"
+        content="image/jpeg">
 
-  <!-- TWITTER -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Berita Terkini">
-  <meta name="twitter:description" content="Viral hari ini">
+  <meta property="og:image:width"
+        content="659">
+
+  <meta property="og:image:height"
+        content="1536">
+
+
+  <!-- =========================
+       DESCRIPTION
+       ========================= -->
+
+  <meta name="description"
+        content="Viral hari ini">
+
+
+  <!-- =========================
+       TWITTER
+       ========================= -->
+
+  <meta name="twitter:card"
+        content="summary_large_image">
+
+  <meta name="twitter:title"
+        content="Berita Terkini">
+
+  <meta name="twitter:description"
+        content="Viral hari ini">
+
   <meta name="twitter:image"
         content="https://kabarterkinii.github.io/Produk/foto.jpg">
 
+
+  <!-- =========================
+       STYLE
+       ========================= -->
+
   <style>
+
     * {
       box-sizing: border-box;
     }
 
+    html,
     body {
       margin: 0;
       padding: 0;
+      width: 100%;
+    }
+
+    body {
       font-family: Arial, sans-serif;
       background: #f5f5f5;
       text-align: center;
@@ -49,7 +90,7 @@
       max-width: 600px;
       margin: 40px auto;
       padding: 20px;
-      background: #fff;
+      background: #ffffff;
       border-radius: 15px;
     }
 
@@ -58,12 +99,13 @@
       font-size: 28px;
     }
 
-    .product-link {
+    .foto-link {
       display: block;
       width: 100%;
+      cursor: pointer;
     }
 
-    img {
+    .foto-link img {
       display: block;
       width: 100%;
       height: auto;
@@ -74,10 +116,11 @@
       font-size: 18px;
     }
 
-    a {
+    .shopee-link {
       color: #0084ff;
       text-decoration: none;
     }
+
   </style>
 
 </head>
@@ -88,25 +131,40 @@
 
     <h1>Berita Terkini</h1>
 
-    <!-- FOTO DIKLIK LANGSUNG KE SHOPEE -->
+
+    <!-- =========================
+         FOTO → LANGSUNG KE SHOPEE
+         ========================= -->
+
     <a
-      class="product-link"
+      class="foto-link"
       href="https://s.shopee.co.id/9KhXtZhvI8"
     >
+
       <img
         src="https://kabarterkinii.github.io/Produk/foto.jpg"
         alt="Berita Terkini"
+        width="659"
+        height="1536"
       >
+
     </a>
+
 
     <p>
       Viral hari ini
     </p>
 
+
     <p>
-      <a href="https://s.shopee.co.id/9KhXtZhvI8">
+
+      <a
+        class="shopee-link"
+        href="https://s.shopee.co.id/9KhXtZhvI8"
+      >
         Klik di sini
       </a>
+
     </p>
 
   </div>
